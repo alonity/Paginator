@@ -1,13 +1,9 @@
-# Paginator
-Pagination component
+<?php
 
-## Install
-
-`composer require alonity/paginator`
-
-### Examples
-```php
 use alonity\paginator\Paginator;
+
+ini_set('display_errors', true);
+error_reporting(E_ALL);
 
 require('vendor/autoload.php');
 
@@ -30,4 +26,4 @@ foreach($paginator->getPageList() as $page){
     }
 }
 
-```
+?>
